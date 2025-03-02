@@ -1,0 +1,163 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style the header */
+header {
+    background-color: #bdbdbd;
+    color: white;
+    padding: 0px;  
+    text-align: center;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #88a4b8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/*
+    display: inline-block;
+    width: 80%;*/
+}
+
+/* Style images inside nav */
+nav img {
+    width: 10%;
+}
+
+/* Style the main content */
+main {
+    background-color: #e6e608;
+    font-size: 18px;
+    padding: 20px;
+
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Commented out the list items styling */
+li {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+} 
+
+/* Style the h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #0073e6;
+}
+
+/* Style the paragraph text */
+p {
+    line-height: 1.6;
+}
+
+/*//////////////////////////////////////////////////////////// */
+
+
+/* Skip to Main Content Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    text-decoration: none;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
+
+
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+  }
+  
+  /* Image Styling */
+  img {
+    border: 5px solid #333;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Grid Layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Flexbox Layout for Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Hover Effects */
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* nth-child Selector */
+  .grid img:nth-child(odd) {
+    border-radius: 50%;
+  }
+  
+  .grid img:nth-child(even) {
+    border-radius: 10px;
+  }
+  
